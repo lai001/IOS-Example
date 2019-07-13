@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Security
 
 class ViewController: UIViewController {
     
@@ -25,12 +26,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("\([#line])", homeDirectory)
-//        userDefaults()
-//        plist()
         
-        
-        
-        
+        print("\nuserDefaults ---------------------------------------------------------------------------\n")
+        userDefaults()
+        print("\nplist ----------------------------------------------------------------------------------\n")
+        plist()
+        print("\narchiver -------------------------------------------------------------------------------\n")
         archiverCustomData()
         
         
@@ -122,6 +123,27 @@ extension ViewController {
             let decodeAge = unarchiver.decodeInteger(forKey: "number")
             let decodeUser = unarchiver.decodeObject(forKey: "user") as? User
             print(decodeData, decodeAge, decodeUser)
+        }
+        
+        // -------------------------------------------------------------------------------------------
+        
+        do {
+            let archiverCustomDataFile1 = URL(fileURLWithPath: "archiverCustomData1", isDirectory: false, relativeTo: URL(fileURLWithPath: tmpDirectory))
+            let rootObject = User(name: "lai001", age: 18)
+            
+            NSKeyedArchiver.archiveRootObject(rootObject, toFile: archiverCustomDataFile1.path)
+            
+            let unarchiver = NSKeyedUnarchiver.unarchiveObject(withFile: archiverCustomDataFile1.path)
+            let user = unarchiver as? User
+            print(user?.name, user?.age)
+            
+            
+            if let unarchiverData = NSData(contentsOfFile: archiverCustomDataFile1.path) { 
+                let unarchiver = NSKeyedUnarchiver.unarchiveObject(with: unarchiverData as Data)
+                let user = unarchiver as? User
+                print(user?.name, user?.age)
+            }
+            
         }
         
     }
