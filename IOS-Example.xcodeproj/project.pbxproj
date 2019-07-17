@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8ABE081E22D9BDEC00418157 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE081D22D9BDEC00418157 /* User.swift */; };
+		8ABE082122D9C63B00418157 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE081F22D9C63B00418157 /* CoreDataModel.xcdatamodeld */; };
+		8ABE082322D9C7C800418157 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE082222D9C7C800418157 /* UserDefault.swift */; };
+		8ABE082522D9C80700418157 /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE082422D9C80700418157 /* Plist.swift */; };
+		8ABE082822D9C88A00418157 /* Archiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE082722D9C88A00418157 /* Archiver.swift */; };
 		8AE6EE2B22D8CD15005E1458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6EE2A22D8CD15005E1458 /* AppDelegate.swift */; };
 		8AE6EE2D22D8CD15005E1458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6EE2C22D8CD15005E1458 /* ViewController.swift */; };
 		8AE6EE3022D8CD15005E1458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE6EE2E22D8CD15005E1458 /* Main.storyboard */; };
@@ -25,6 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8ABE081D22D9BDEC00418157 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8ABE082022D9C63B00418157 /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
+		8ABE082222D9C7C800418157 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		8ABE082422D9C80700418157 /* Plist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plist.swift; sourceTree = "<group>"; };
+		8ABE082722D9C88A00418157 /* Archiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archiver.swift; sourceTree = "<group>"; };
 		8AE6EE2722D8CD15005E1458 /* IOS-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE6EE2A22D8CD15005E1458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AE6EE2C22D8CD15005E1458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8ABE082622D9C83E00418157 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				8ABE082222D9C7C800418157 /* UserDefault.swift */,
+				8ABE082422D9C80700418157 /* Plist.swift */,
+				8ABE082722D9C88A00418157 /* Archiver.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		8AE6EE1E22D8CD15005E1458 = {
 			isa = PBXGroup;
 			children = (
@@ -124,12 +144,15 @@
 		8AE6EE5922D8EBF3005E1458 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
+				8ABE082622D9C83E00418157 /* Example */,
 				8AE6EE5A22D8EBF3005E1458 /* AppDelegate.swift */,
 				8AE6EE5C22D8EBF3005E1458 /* ViewController.swift */,
 				8AE6EE5E22D8EBF3005E1458 /* Main.storyboard */,
 				8AE6EE6122D8EBF4005E1458 /* Assets.xcassets */,
 				8AE6EE6322D8EBF4005E1458 /* LaunchScreen.storyboard */,
 				8AE6EE6622D8EBF4005E1458 /* Info.plist */,
+				8ABE081D22D9BDEC00418157 /* User.swift */,
+				8ABE081F22D9C63B00418157 /* CoreDataModel.xcdatamodeld */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -295,8 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ABE082522D9C80700418157 /* Plist.swift in Sources */,
+				8ABE082122D9C63B00418157 /* CoreDataModel.xcdatamodeld in Sources */,
 				8AE6EE5D22D8EBF3005E1458 /* ViewController.swift in Sources */,
+				8ABE082322D9C7C800418157 /* UserDefault.swift in Sources */,
 				8AE6EE5B22D8EBF3005E1458 /* AppDelegate.swift in Sources */,
+				8ABE081E22D9BDEC00418157 /* User.swift in Sources */,
+				8ABE082822D9C88A00418157 /* Archiver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +652,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8ABE081F22D9C63B00418157 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8ABE082022D9C63B00418157 /* User.xcdatamodel */,
+			);
+			currentVersion = 8ABE082022D9C63B00418157 /* User.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8AE6EE1F22D8CD15005E1458 /* Project object */;
 }
