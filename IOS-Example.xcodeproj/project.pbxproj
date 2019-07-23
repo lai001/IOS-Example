@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A3E426A22E6B26100ADA8FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E426922E6B26100ADA8FC /* AppDelegate.swift */; };
+		8A3E426C22E6B26100ADA8FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E426B22E6B26100ADA8FC /* ViewController.swift */; };
+		8A3E426F22E6B26100ADA8FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E426D22E6B26100ADA8FC /* Main.storyboard */; };
+		8A3E427122E6B26200ADA8FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E427022E6B26200ADA8FC /* Assets.xcassets */; };
+		8A3E427422E6B26200ADA8FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E427222E6B26200ADA8FC /* LaunchScreen.storyboard */; };
+		8A3E427A22E6B2AF00ADA8FC /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E427922E6B2AF00ADA8FC /* Shaders.metal */; };
+		8A3E427C22E6CA1400ADA8FC /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E427B22E6CA1400ADA8FC /* MetalView.swift */; };
+		8A3E427E22E6CDAA00ADA8FC /* GPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E427D22E6CDAA00ADA8FC /* GPU.swift */; };
 		8A714BEE22E1DBAE004433DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714BED22E1DBAE004433DD /* AppDelegate.swift */; };
 		8A714BF022E1DBAE004433DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714BEF22E1DBAE004433DD /* ViewController.swift */; };
 		8A714BF322E1DBAE004433DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A714BF122E1DBAE004433DD /* Main.storyboard */; };
@@ -35,6 +43,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A3E426722E6B26100ADA8FC /* MetalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3E426922E6B26100ADA8FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A3E426B22E6B26100ADA8FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A3E426E22E6B26100ADA8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A3E427022E6B26200ADA8FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A3E427322E6B26200ADA8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A3E427522E6B26200ADA8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3E427922E6B2AF00ADA8FC /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		8A3E427B22E6CA1400ADA8FC /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		8A3E427D22E6CDAA00ADA8FC /* GPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPU.swift; sourceTree = "<group>"; };
 		8A714BEB22E1DBAE004433DD /* CameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A714BED22E1DBAE004433DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A714BEF22E1DBAE004433DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +90,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A3E426422E6B26100ADA8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A714BE822E1DBAE004433DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +128,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A3E426822E6B26100ADA8FC /* MetalDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8A3E426922E6B26100ADA8FC /* AppDelegate.swift */,
+				8A3E426B22E6B26100ADA8FC /* ViewController.swift */,
+				8A3E427B22E6CA1400ADA8FC /* MetalView.swift */,
+				8A3E427D22E6CDAA00ADA8FC /* GPU.swift */,
+				8A3E427922E6B2AF00ADA8FC /* Shaders.metal */,
+				8A3E426D22E6B26100ADA8FC /* Main.storyboard */,
+				8A3E427022E6B26200ADA8FC /* Assets.xcassets */,
+				8A3E427222E6B26200ADA8FC /* LaunchScreen.storyboard */,
+				8A3E427522E6B26200ADA8FC /* Info.plist */,
+			);
+			path = MetalDemo;
+			sourceTree = "<group>";
+		};
 		8A714BEC22E1DBAE004433DD /* CameraDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +174,7 @@
 				8AE6EE4222D8E924005E1458 /* Permission */,
 				8AE6EE5922D8EBF3005E1458 /* Persistence */,
 				8A714BEC22E1DBAE004433DD /* CameraDemo */,
+				8A3E426822E6B26100ADA8FC /* MetalDemo */,
 				8AE6EE2822D8CD15005E1458 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,6 +186,7 @@
 				8AE6EE4122D8E924005E1458 /* Permission.app */,
 				8AE6EE5822D8EBF3005E1458 /* Persistence.app */,
 				8A714BEB22E1DBAE004433DD /* CameraDemo.app */,
+				8A3E426722E6B26100ADA8FC /* MetalDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,6 +237,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8A3E426622E6B26100ADA8FC /* MetalDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3E427822E6B26200ADA8FC /* Build configuration list for PBXNativeTarget "MetalDemo" */;
+			buildPhases = (
+				8A3E426322E6B26100ADA8FC /* Sources */,
+				8A3E426422E6B26100ADA8FC /* Frameworks */,
+				8A3E426522E6B26100ADA8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalDemo;
+			productName = MetalDemo;
+			productReference = 8A3E426722E6B26100ADA8FC /* MetalDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8A714BEA22E1DBAE004433DD /* CameraDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A714BFC22E1DBAF004433DD /* Build configuration list for PBXNativeTarget "CameraDemo" */;
@@ -272,6 +332,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = none;
 				TargetAttributes = {
+					8A3E426622E6B26100ADA8FC = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					8A714BEA22E1DBAE004433DD = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -313,11 +376,22 @@
 				8AE6EE4022D8E924005E1458 /* Permission */,
 				8AE6EE5722D8EBF3005E1458 /* Persistence */,
 				8A714BEA22E1DBAE004433DD /* CameraDemo */,
+				8A3E426622E6B26100ADA8FC /* MetalDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8A3E426522E6B26100ADA8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3E427422E6B26200ADA8FC /* LaunchScreen.storyboard in Resources */,
+				8A3E427122E6B26200ADA8FC /* Assets.xcassets in Resources */,
+				8A3E426F22E6B26100ADA8FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A714BE922E1DBAE004433DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +435,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8A3E426322E6B26100ADA8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3E427C22E6CA1400ADA8FC /* MetalView.swift in Sources */,
+				8A3E427A22E6B2AF00ADA8FC /* Shaders.metal in Sources */,
+				8A3E426C22E6B26100ADA8FC /* ViewController.swift in Sources */,
+				8A3E426A22E6B26100ADA8FC /* AppDelegate.swift in Sources */,
+				8A3E427E22E6CDAA00ADA8FC /* GPU.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A714BE722E1DBAE004433DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,6 +491,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		8A3E426D22E6B26100ADA8FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3E426E22E6B26100ADA8FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A3E427222E6B26200ADA8FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3E427322E6B26200ADA8FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		8A714BF122E1DBAE004433DD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -472,6 +574,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8A3E427622E6B26200ADA8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9SCFYBQN5;
+				INFOPLIST_FILE = MetalDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CN.MetalDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A3E427722E6B26200ADA8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9SCFYBQN5;
+				INFOPLIST_FILE = MetalDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CN.MetalDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8A714BFA22E1DBAF004433DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -739,6 +879,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8A3E427822E6B26200ADA8FC /* Build configuration list for PBXNativeTarget "MetalDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3E427622E6B26200ADA8FC /* Debug */,
+				8A3E427722E6B26200ADA8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8A714BFC22E1DBAF004433DD /* Build configuration list for PBXNativeTarget "CameraDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
