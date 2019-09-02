@@ -83,6 +83,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "forCellWithReuseIdentifier", for: indexPath) as! LabelCollectionViewCell
         cell.label.text = dataSource[indexPath.section][indexPath.item]
+        cell.layer.zPosition = 1 // 如果不想在拖动cell时 ，让 SectionHeader 挡住cell，添加这句
         return cell
     }
     
