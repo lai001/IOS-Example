@@ -27,6 +27,11 @@
 		8A3E427A22E6B2AF00ADA8FC /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E427922E6B2AF00ADA8FC /* Shaders.metal */; };
 		8A3E427C22E6CA1400ADA8FC /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E427B22E6CA1400ADA8FC /* MetalView.swift */; };
 		8A3E427E22E6CDAA00ADA8FC /* GPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E427D22E6CDAA00ADA8FC /* GPU.swift */; };
+		8A48B05C2331378A006DA00E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48B05B2331378A006DA00E /* AppDelegate.swift */; };
+		8A48B05E2331378A006DA00E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48B05D2331378A006DA00E /* ViewController.swift */; };
+		8A48B0612331378A006DA00E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A48B05F2331378A006DA00E /* Main.storyboard */; };
+		8A48B0632331378A006DA00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A48B0622331378A006DA00E /* Assets.xcassets */; };
+		8A48B0662331378A006DA00E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A48B0642331378A006DA00E /* LaunchScreen.storyboard */; };
 		8A714BEE22E1DBAE004433DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714BED22E1DBAE004433DD /* AppDelegate.swift */; };
 		8A714BF022E1DBAE004433DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714BEF22E1DBAE004433DD /* ViewController.swift */; };
 		8A714BF322E1DBAE004433DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A714BF122E1DBAE004433DD /* Main.storyboard */; };
@@ -81,6 +86,13 @@
 		8A3E427922E6B2AF00ADA8FC /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		8A3E427B22E6CA1400ADA8FC /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 		8A3E427D22E6CDAA00ADA8FC /* GPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPU.swift; sourceTree = "<group>"; };
+		8A48B0592331378A006DA00E /* UserNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A48B05B2331378A006DA00E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A48B05D2331378A006DA00E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A48B0602331378A006DA00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A48B0622331378A006DA00E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A48B0652331378A006DA00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A48B0672331378A006DA00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A714BEB22E1DBAE004433DD /* CameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A714BED22E1DBAE004433DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A714BEF22E1DBAE004433DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +145,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8A3E426422E6B26100ADA8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A48B0562331378A006DA00E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,6 +233,19 @@
 			path = MetalDemo;
 			sourceTree = "<group>";
 		};
+		8A48B05A2331378A006DA00E /* UserNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				8A48B05B2331378A006DA00E /* AppDelegate.swift */,
+				8A48B05D2331378A006DA00E /* ViewController.swift */,
+				8A48B05F2331378A006DA00E /* Main.storyboard */,
+				8A48B0622331378A006DA00E /* Assets.xcassets */,
+				8A48B0642331378A006DA00E /* LaunchScreen.storyboard */,
+				8A48B0672331378A006DA00E /* Info.plist */,
+			);
+			path = UserNotifications;
+			sourceTree = "<group>";
+		};
 		8A714BEC22E1DBAE004433DD /* CameraDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +279,7 @@
 				8A3E426822E6B26100ADA8FC /* MetalDemo */,
 				8A1FD81A231BFA0D00D39F33 /* ReorderingItemsUICollectionView */,
 				8A2ADAA22324B16A007839F2 /* EaseFunctions */,
+				8A48B05A2331378A006DA00E /* UserNotifications */,
 				8AE6EE2822D8CD15005E1458 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -261,6 +294,7 @@
 				8A3E426722E6B26100ADA8FC /* MetalDemo.app */,
 				8A1FD819231BFA0D00D39F33 /* ReorderingItemsUICollectionView.app */,
 				8A2ADAA12324B16A007839F2 /* EaseFunctions.app */,
+				8A48B0592331378A006DA00E /* UserNotifications.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -362,6 +396,23 @@
 			productReference = 8A3E426722E6B26100ADA8FC /* MetalDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8A48B0582331378A006DA00E /* UserNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A48B06A2331378A006DA00E /* Build configuration list for PBXNativeTarget "UserNotifications" */;
+			buildPhases = (
+				8A48B0552331378A006DA00E /* Sources */,
+				8A48B0562331378A006DA00E /* Frameworks */,
+				8A48B0572331378A006DA00E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UserNotifications;
+			productName = UserNotifications;
+			productReference = 8A48B0592331378A006DA00E /* UserNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8A714BEA22E1DBAE004433DD /* CameraDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A714BFC22E1DBAF004433DD /* Build configuration list for PBXNativeTarget "CameraDemo" */;
@@ -449,6 +500,9 @@
 					8A3E426622E6B26100ADA8FC = {
 						CreatedOnToolsVersion = 10.2;
 					};
+					8A48B0582331378A006DA00E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8A714BEA22E1DBAE004433DD = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -493,6 +547,7 @@
 				8A3E426622E6B26100ADA8FC /* MetalDemo */,
 				8A1FD818231BFA0D00D39F33 /* ReorderingItemsUICollectionView */,
 				8A2ADAA02324B16A007839F2 /* EaseFunctions */,
+				8A48B0582331378A006DA00E /* UserNotifications */,
 			);
 		};
 /* End PBXProject section */
@@ -525,6 +580,16 @@
 				8A3E427422E6B26200ADA8FC /* LaunchScreen.storyboard in Resources */,
 				8A3E427122E6B26200ADA8FC /* Assets.xcassets in Resources */,
 				8A3E426F22E6B26100ADA8FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A48B0572331378A006DA00E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A48B0662331378A006DA00E /* LaunchScreen.storyboard in Resources */,
+				8A48B0632331378A006DA00E /* Assets.xcassets in Resources */,
+				8A48B0612331378A006DA00E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,6 +665,15 @@
 				8A3E426C22E6B26100ADA8FC /* ViewController.swift in Sources */,
 				8A3E426A22E6B26100ADA8FC /* AppDelegate.swift in Sources */,
 				8A3E427E22E6CDAA00ADA8FC /* GPU.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A48B0552331378A006DA00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A48B05E2331378A006DA00E /* ViewController.swift in Sources */,
+				8A48B05C2331378A006DA00E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,6 +765,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				8A3E427322E6B26200ADA8FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8A48B05F2331378A006DA00E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A48B0602331378A006DA00E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A48B0642331378A006DA00E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A48B0652331378A006DA00E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -862,6 +952,40 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CN.MetalDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A48B0682331378A006DA00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UserNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lai.UserNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A48B0692331378A006DA00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UserNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lai.UserNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1158,6 +1282,15 @@
 			buildConfigurations = (
 				8A3E427622E6B26200ADA8FC /* Debug */,
 				8A3E427722E6B26200ADA8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A48B06A2331378A006DA00E /* Build configuration list for PBXNativeTarget "UserNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A48B0682331378A006DA00E /* Debug */,
+				8A48B0692331378A006DA00E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
