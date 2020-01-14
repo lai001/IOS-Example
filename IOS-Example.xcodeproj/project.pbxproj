@@ -19,6 +19,13 @@
 		8A2ADAAE2324B16B007839F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2ADAAC2324B16B007839F2 /* LaunchScreen.storyboard */; };
 		8A2ADAB42324B17D007839F2 /* PropertyAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2ADAB32324B17D007839F2 /* PropertyAnimator.swift */; };
 		8A2ADAB62324B18E007839F2 /* AnimationFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2ADAB52324B18E007839F2 /* AnimationFormula.swift */; };
+		8A3642A523CDA1660037952B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3642A423CDA1660037952B /* AppDelegate.swift */; };
+		8A3642A923CDA1660037952B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3642A823CDA1660037952B /* ViewController.swift */; };
+		8A3642AC23CDA1660037952B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3642AA23CDA1660037952B /* Main.storyboard */; };
+		8A3642AE23CDA1680037952B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3642AD23CDA1680037952B /* Assets.xcassets */; };
+		8A3642B123CDA1680037952B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3642AF23CDA1680037952B /* LaunchScreen.storyboard */; };
+		8A3642B723CDA2920037952B /* MEAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3642B623CDA2920037952B /* MEAudioEngine.swift */; };
+		8A3642B923CDA2C40037952B /* MEAudioUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3642B823CDA2C40037952B /* MEAudioUnit.swift */; };
 		8A3E426A22E6B26100ADA8FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E426922E6B26100ADA8FC /* AppDelegate.swift */; };
 		8A3E426C22E6B26100ADA8FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E426B22E6B26100ADA8FC /* ViewController.swift */; };
 		8A3E426F22E6B26100ADA8FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E426D22E6B26100ADA8FC /* Main.storyboard */; };
@@ -76,6 +83,15 @@
 		8A2ADAAF2324B16B007839F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A2ADAB32324B17D007839F2 /* PropertyAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyAnimator.swift; sourceTree = "<group>"; };
 		8A2ADAB52324B18E007839F2 /* AnimationFormula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFormula.swift; sourceTree = "<group>"; };
+		8A3642A223CDA1660037952B /* AudioEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3642A423CDA1660037952B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A3642A823CDA1660037952B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A3642AB23CDA1660037952B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A3642AD23CDA1680037952B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A3642B023CDA1680037952B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A3642B223CDA1680037952B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3642B623CDA2920037952B /* MEAudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEAudioEngine.swift; sourceTree = "<group>"; };
+		8A3642B823CDA2C40037952B /* MEAudioUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEAudioUnit.swift; sourceTree = "<group>"; };
 		8A3E426722E6B26100ADA8FC /* MetalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3E426922E6B26100ADA8FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A3E426B22E6B26100ADA8FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +154,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8A2ADA9E2324B16A007839F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A36429F23CDA1660037952B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,6 +240,21 @@
 			path = EaseFunctions;
 			sourceTree = "<group>";
 		};
+		8A3642A323CDA1660037952B /* AudioEngine */ = {
+			isa = PBXGroup;
+			children = (
+				8A3642B823CDA2C40037952B /* MEAudioUnit.swift */,
+				8A3642B623CDA2920037952B /* MEAudioEngine.swift */,
+				8A3642A423CDA1660037952B /* AppDelegate.swift */,
+				8A3642A823CDA1660037952B /* ViewController.swift */,
+				8A3642AA23CDA1660037952B /* Main.storyboard */,
+				8A3642AD23CDA1680037952B /* Assets.xcassets */,
+				8A3642AF23CDA1680037952B /* LaunchScreen.storyboard */,
+				8A3642B223CDA1680037952B /* Info.plist */,
+			);
+			path = AudioEngine;
+			sourceTree = "<group>";
+		};
 		8A3E426822E6B26100ADA8FC /* MetalDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +318,7 @@
 				8A1FD81A231BFA0D00D39F33 /* ReorderingItemsUICollectionView */,
 				8A2ADAA22324B16A007839F2 /* EaseFunctions */,
 				8A48B05A2331378A006DA00E /* UserNotifications */,
+				8A3642A323CDA1660037952B /* AudioEngine */,
 				8AE6EE2822D8CD15005E1458 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -295,6 +334,7 @@
 				8A1FD819231BFA0D00D39F33 /* ReorderingItemsUICollectionView.app */,
 				8A2ADAA12324B16A007839F2 /* EaseFunctions.app */,
 				8A48B0592331378A006DA00E /* UserNotifications.app */,
+				8A3642A223CDA1660037952B /* AudioEngine.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -377,6 +417,23 @@
 			name = EaseFunctions;
 			productName = EaseFunctions;
 			productReference = 8A2ADAA12324B16A007839F2 /* EaseFunctions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A3642A123CDA1660037952B /* AudioEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3642B523CDA1680037952B /* Build configuration list for PBXNativeTarget "AudioEngine" */;
+			buildPhases = (
+				8A36429E23CDA1660037952B /* Sources */,
+				8A36429F23CDA1660037952B /* Frameworks */,
+				8A3642A023CDA1660037952B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioEngine;
+			productName = AudioEngine;
+			productReference = 8A3642A223CDA1660037952B /* AudioEngine.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8A3E426622E6B26100ADA8FC /* MetalDemo */ = {
@@ -487,7 +544,7 @@
 		8AE6EE1F22D8CD15005E1458 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
+				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = none;
 				TargetAttributes = {
@@ -496,6 +553,9 @@
 					};
 					8A2ADAA02324B16A007839F2 = {
 						CreatedOnToolsVersion = 10.2.1;
+					};
+					8A3642A123CDA1660037952B = {
+						CreatedOnToolsVersion = 11.1;
 					};
 					8A3E426622E6B26100ADA8FC = {
 						CreatedOnToolsVersion = 10.2;
@@ -548,6 +608,7 @@
 				8A1FD818231BFA0D00D39F33 /* ReorderingItemsUICollectionView */,
 				8A2ADAA02324B16A007839F2 /* EaseFunctions */,
 				8A48B0582331378A006DA00E /* UserNotifications */,
+				8A3642A123CDA1660037952B /* AudioEngine */,
 			);
 		};
 /* End PBXProject section */
@@ -570,6 +631,16 @@
 				8A2ADAAE2324B16B007839F2 /* LaunchScreen.storyboard in Resources */,
 				8A2ADAAB2324B16B007839F2 /* Assets.xcassets in Resources */,
 				8A2ADAA92324B16A007839F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3642A023CDA1660037952B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3642B123CDA1680037952B /* LaunchScreen.storyboard in Resources */,
+				8A3642AE23CDA1680037952B /* Assets.xcassets in Resources */,
+				8A3642AC23CDA1660037952B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +724,17 @@
 				8A2ADAA42324B16A007839F2 /* AppDelegate.swift in Sources */,
 				8A2ADAB42324B17D007839F2 /* PropertyAnimator.swift in Sources */,
 				8A2ADAB62324B18E007839F2 /* AnimationFormula.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A36429E23CDA1660037952B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3642B923CDA2C40037952B /* MEAudioUnit.swift in Sources */,
+				8A3642B723CDA2920037952B /* MEAudioEngine.swift in Sources */,
+				8A3642A923CDA1660037952B /* ViewController.swift in Sources */,
+				8A3642A523CDA1660037952B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,6 +831,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				8A2ADAAD2324B16B007839F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8A3642AA23CDA1660037952B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3642AB23CDA1660037952B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A3642AF23CDA1680037952B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3642B023CDA1680037952B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -914,6 +1012,42 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lai.EaseFunctions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A3642B323CDA1680037952B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioEngine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lai.AudioEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A3642B423CDA1680037952B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioEngine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lai.AudioEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1273,6 +1407,15 @@
 			buildConfigurations = (
 				8A2ADAB02324B16B007839F2 /* Debug */,
 				8A2ADAB12324B16B007839F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3642B523CDA1680037952B /* Build configuration list for PBXNativeTarget "AudioEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3642B323CDA1680037952B /* Debug */,
+				8A3642B423CDA1680037952B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
