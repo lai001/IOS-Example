@@ -26,6 +26,7 @@
 		8A3642B123CDA1680037952B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3642AF23CDA1680037952B /* LaunchScreen.storyboard */; };
 		8A3642B723CDA2920037952B /* MEAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3642B623CDA2920037952B /* MEAudioEngine.swift */; };
 		8A3642B923CDA2C40037952B /* MEAudioUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3642B823CDA2C40037952B /* MEAudioUnit.swift */; };
+		8A3642BB23CDA5630037952B /* AudioUnitEffectFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3642BA23CDA5630037952B /* AudioUnitEffectFormat.swift */; };
 		8A3E426A22E6B26100ADA8FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E426922E6B26100ADA8FC /* AppDelegate.swift */; };
 		8A3E426C22E6B26100ADA8FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E426B22E6B26100ADA8FC /* ViewController.swift */; };
 		8A3E426F22E6B26100ADA8FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E426D22E6B26100ADA8FC /* Main.storyboard */; };
@@ -92,6 +93,7 @@
 		8A3642B223CDA1680037952B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3642B623CDA2920037952B /* MEAudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEAudioEngine.swift; sourceTree = "<group>"; };
 		8A3642B823CDA2C40037952B /* MEAudioUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEAudioUnit.swift; sourceTree = "<group>"; };
+		8A3642BA23CDA5630037952B /* AudioUnitEffectFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitEffectFormat.swift; sourceTree = "<group>"; };
 		8A3E426722E6B26100ADA8FC /* MetalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3E426922E6B26100ADA8FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A3E426B22E6B26100ADA8FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				8A3642AD23CDA1680037952B /* Assets.xcassets */,
 				8A3642AF23CDA1680037952B /* LaunchScreen.storyboard */,
 				8A3642B223CDA1680037952B /* Info.plist */,
+				8A3642BA23CDA5630037952B /* AudioUnitEffectFormat.swift */,
 			);
 			path = AudioEngine;
 			sourceTree = "<group>";
@@ -733,6 +736,7 @@
 			files = (
 				8A3642B923CDA2C40037952B /* MEAudioUnit.swift in Sources */,
 				8A3642B723CDA2920037952B /* MEAudioEngine.swift in Sources */,
+				8A3642BB23CDA5630037952B /* AudioUnitEffectFormat.swift in Sources */,
 				8A3642A923CDA1660037952B /* ViewController.swift in Sources */,
 				8A3642A523CDA1660037952B /* AppDelegate.swift in Sources */,
 			);
